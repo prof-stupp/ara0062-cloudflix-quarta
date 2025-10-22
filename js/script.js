@@ -40,7 +40,7 @@ function validarEmail(campo) {
         // Prepara uma mensagem de erro e a mostra ao aluno: 
         const mensagemErro = 'Por favor, insira um endereço de e-mail válido.'; 
         campo.setCustomValidity(mensagemErro); 
-        campo.reportValidity(); // Faz o navegador mostrar a caixa de erro. 
+        //campo.reportValidity(); // Faz o navegador mostrar a caixa de erro. 
 
         return false; 
     } 
@@ -56,9 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Acha o campo de e-mail na página pelo ID 'id_email'. 
     const campoEmail = document.getElementById('id_email'); 
-
-    // Acha o formulário inteiro. 
-    const formulario = document.querySelector('form'); 
 
     // --- Ação 1: Checagem Rápida (Saindo do Campo) --- 
     // Sempre que o aluno sai do campo (evento 'blur'), checamos o e-mail. 
