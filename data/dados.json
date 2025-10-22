@@ -1,5 +1,11 @@
 [
   {
+    "titulo": "Formula 1",
+    "genero": "Ação",
+    "imagemCaminho": "https://upload.wikimedia.org/wikipedia/pt/c/c1/F1.webp",
+    "imagemAlt": "Cartaz do filme Formula 1"
+  },
+  {
     "titulo": "Interstellar",
     "genero": "Ficção Científica",
     "imagemCaminho": "img/interstellar.webp",
@@ -17,4 +23,5 @@
     "imagemCaminho": "img/spm.webp",
     "imagemAlt": "Cartaz do filme Sociedade dos Poetas Mortos"
   }
+
 ]
