@@ -4,41 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloudFlix</title>
+    <style type="text/css">
+        @import url("css/style.css");
+    </style>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>CloudFlix: O seu catálogo fictício de filmes</h1>
+        <h1>CloudFlix: Seu catálogo fictício de filmes</h1>
     </header>
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="catalogo.html">Catálogo</a> |
-        <b>SAC</b> |
-        <a href="equipe.html">Equipe</a>
+        <a href="index.html">Home</a>
+        <a href="catalogo.html">Catálogo</a>
+        <b>SAC</b>
+        <a id="nav-equipe" href="equipe.html">Equipe</a>
     </nav>
     <main>
-        <h2>Serviço de Atendimento ao Cliente</h2>
-        <p>Envie uma mensagem e responderemos logo.</p>
-
-        <form action="#" method="post">
-
+        <h2>Serviço de Atendimento ao Consumidor</h2>
+        <p>Você pode entrar em contato enviando uma mensagem pelo formulário abaixo:</p>
+        <form action="" method="post">
             <label for="id_nome">Nome do cliente:</label><br>
-            <input type="text" id="id_nome" name="nome"><br><br>
+            <input type="text" name="nome" id="id_nome"><br><br>
+            
+            <label for="id_email">E-mail do cliente:</label><br>
+            <input type="text" name="email" id="id_email"><br><br>
+            
             <label for="id_mensagem">Mensagem:</label><br>
             <textarea name="mensagem" id="id_mensagem"></textarea><br><br>
-            <input type="submit" value="Enviar">
-
+            <button type="submit">Enviar</button>
         </form>
 
     </main>
-    <footer>
-        <p>
-            © 2025 CloudFlix. Todos os direitos reservados.
-        </p>
-        <p>
-            Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de filmes são utilizadas para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.
-        </p>
+    <footer class="texto-do-rodape">
+        <p>© 2025 CloudFlix. Todos os direitos reservados.</p>
+
+        <p>Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de filmes são utilizadas para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.</p>
     </footer>
 </body>
 </html>
-
-
