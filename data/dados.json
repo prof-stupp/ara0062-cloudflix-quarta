@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Interstellar",
+    "genero": "Ficção Científica",
+    "imagemCaminho": "img/interstellar.webp",
+    "imagemAlt": "Cartaz do filme Interstellar"
+  },
+  {
+    "titulo": "Homem-Aranha",
+    "genero": "Ação",
+    "imagemCaminho": "img/homem-aranha.webp",
+    "imagemAlt": "Cartaz do filme Homem-Aranha"
+  },
+  {
+    "titulo": "Sociedade dos Poetas Mortos",
+    "genero": "Drama",
+    "imagemCaminho": "img/spm.webp",
+    "imagemAlt": "Cartaz do filme Sociedade dos Poetas Mortos"
+  }
+]
