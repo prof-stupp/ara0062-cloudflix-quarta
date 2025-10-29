@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloudFlix</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Testando Github com vscode.dev -->
     <header>
@@ -20,7 +22,7 @@
     <main>
         <h2>Catálogo de filmes</h2>
         <p>Desfrute desse catálogo imenso de filmes extradionários</p>
-        <table id="catalogoFilmes" border="1">
+        <table border="1" id="tabela-catalogo">
             <thead>
                 <tr>
                     <th>Cartaz</th>
@@ -28,16 +30,18 @@
                     <th>Gênero</th>
                 </tr>
             </thead>
-            <tbody id="corpoCatalogo">
-                <tr><td colspan="3">Carregando catálogo...</td></tr>
+            <tbody id="corpo-tabela-filmes">
+
             </tbody>
         </table>
     </main>
     <footer class="texto-do-rodape">
         <p>© 2025 CloudFlix. Todos os direitos reservados.</p>
 
-        <p>Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de filmes são utilizadas para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.</p>
+        <p>Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de filmes são utilizadas
+            para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.</p>
     </footer>
-    
+    <script src="js/catalogo.js"></script>
 </body>
+
 </html>
