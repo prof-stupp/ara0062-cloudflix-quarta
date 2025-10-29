@@ -1,6 +1,14 @@
 [
     {
         "imagem": {
+            "src": "https://acdn-us.mitiendanube.com/stores/004/687/740/products/pos-04251-8cb54e29d42bf9c92617507643837172-1024-1024.jpg",
+            "alt": "Cartaz do filme Formula 1"
+        },
+        "titulo": "Formula 1",
+        "genero": "Ação"
+    },
+    {
+        "imagem": {
             "src": "./img/interstellar.webp",
             "alt": "Cartaz do filme Interstellar"
         },
