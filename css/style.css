@@ -133,3 +133,33 @@ thead {
 td img {
     border-radius: 5px;
 }
+
+/* NOVO: Classe para o tema escuro */ 
+
+.tema-escuro { 
+
+  background-color: #121212 !important; /* !important garante que sobrescreve o CSS do body */ 
+
+  color: #f0f0f0; 
+
+} 
+
+ 
+
+.tema-escuro header, .tema-escuro footer { 
+
+  background-color: #000; 
+
+} 
+
+ 
+
+.tema-escuro main { 
+
+  background-color: #2c2c2c; 
+
+  color: #f0f0f0; 
+
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); 
+
+} 
